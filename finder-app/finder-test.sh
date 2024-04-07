@@ -62,7 +62,8 @@ OUTPUTSTRING=$(./finder.sh "$WRITEDIR" "$WRITESTR")
 
 make clean
 make CROSS_COMPILE=aarch64-none-linux-gnu
-
+mkdir -p ../assignments/assignment2
+touch ../assignments/assignment2/fileresult.txt
 
 file writer > ../assignments/assignment2/fileresult.txt
 cat ../assignments/assignment2/fileresult.txt
