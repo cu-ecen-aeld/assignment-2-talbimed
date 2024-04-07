@@ -1,4 +1,5 @@
 name: assignment-test
+runs-on: self-hosted
 on: 
     push:
         tags-ignore:
